@@ -1,7 +1,7 @@
 InstallNodejs and npm in rhel
 =============================
-curl -sL https://rpm.nodesource.com/setup_12.x | bash -
-yum install -y nodejs
+curl -fsSL https://rpm.nodesource.com/setup_20.x | sudo bash -
+sudo yum install -y nsolid
 npm --version
 node --version
 =====================
